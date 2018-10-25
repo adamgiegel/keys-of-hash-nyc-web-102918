@@ -4,7 +4,7 @@ class Hash
     self.each do |key, value|
       args.each do |i|
         if i == value
-        new_array.push(key)
+        new_array << key
         end
       end 
     end
